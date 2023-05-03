@@ -13,13 +13,15 @@ BugReports: https://github.com/RMI-PACTA/pactaverse/issues
 Imports: 
     pacta.data.validation (>= 0.0.0.9000),
     pacta.executive.summary (>= 0.0.1.9000),
+    pacta.portfolio.audit (>= 0.0.0.9000),
     pacta.portfolio.import (>= 0.0.0.9000),
     pacta.portfolio.utils (>= 0.0.1.9000)
-Remotes: 
+Remotes:  
     RMI-PACTA/pacta.data.validation,
     RMI-PACTA/pacta.portfolio.import,
     RMI-PACTA/pacta.portfolio.utils,
-    RMI-PACTA/pacta.executive.summary
+    RMI-PACTA/pacta.executive.summary,
+    RMI-PACTA/pacta.portfolio.audit
 Suggests: 
     covr,
     testthat (>= 3.0.0)

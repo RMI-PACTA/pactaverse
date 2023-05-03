@@ -1,6 +1,7 @@
 core <- c(
   "pacta.portfolio.import",
   "pacta.data.validation",
+  "pacta.portfolio.audit",
   "pacta.portfolio.utils",
   "pacta.executive.summary"
   )

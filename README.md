@@ -44,6 +44,8 @@ system packages needed on your machine.
   for validating all PACTA input datasets.
 - [pacta.portfolio.import](https://rmi-pacta.github.io/pacta.portfolio.import/),
   for facilitating the import of financial portfolios.
+- [pacta.portfolio.audit](https://rmi-pacta.github.io/pacta.portfolio.audit/),
+  for generating audit statistics for the PACTA interactive report.
 - [pacta.portfolio.utils](https://rmi-pacta.github.io/pacta.portfolio.utils/),
   for general utility functions, especially those that support
   transition monitor.

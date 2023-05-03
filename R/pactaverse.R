@@ -8,6 +8,7 @@ ignore_unused_imports <- function() {
   pacta.portfolio.import::determine_headers
   pacta.data.validation::fake_abcd_flags_bonds
   pacta.portfolio.utils::abort_if_file_doesnt_exist
+  pacta.portfolio.audit::add_portfolio_flags
   pacta.executive.summary::alignment_scores_values
 }
 
