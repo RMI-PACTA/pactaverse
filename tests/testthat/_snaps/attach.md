@@ -11,7 +11,6 @@
       -- Attaching core pactaverse packages ---------------------- pactaverse 1.0.0 --
       v pacta.data.validation   1.0.0     v pacta.portfolio.import  1.0.0
       v pacta.executive.summary 1.0.0     v pacta.portfolio.utils   1.0.0
-      v pacta.portfolio.audit   1.0.0     
 
 # highlights dev versions in red
 
