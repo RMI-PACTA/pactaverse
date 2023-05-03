@@ -31,6 +31,7 @@ Remotes:
     RMI-PACTA/pacta.portfolio.audit
 Suggests: 
     covr,
+    mockr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Config/Needs/website: rmi-pacta/pacta.pkgdown.template
