@@ -7,8 +7,7 @@ Authors@R: c(
   )
 Description: The 'pactaverse' is a set of packages that work to help R users 
   implement various functionality related to the PACTA open source project.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
@@ -23,7 +22,7 @@ Imports:
     pacta.executive.summary (>= 0.0.1.9000),
     pacta.portfolio.import (>= 0.0.0.9000),
     pacta.portfolio.utils (>= 0.0.1.9000)
-Remotes:  
+Remotes: 
     RMI-PACTA/pacta.data.validation,
     RMI-PACTA/pacta.portfolio.import,
     RMI-PACTA/pacta.portfolio.utils,
