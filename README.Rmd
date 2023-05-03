@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/RMI-PACTA/pactaverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/RMI-PACTA/pactaverse/actions/workflows/R-CMD-check.yaml)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Codecov test coverage](https://codecov.io/gh/RMI-PACTA/pactaverse/branch/main/graph/badge.svg)](https://app.codecov.io/gh/RMI-PACTA/pactaverse?branch=main)
 <!-- badges: end -->
 
 The goal of pactaverse is to provide and easy way to load and install all PACTA 
