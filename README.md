@@ -27,7 +27,7 @@ documentation for PACTA.
 ``` r
 # Install the development version from GitHub
 # install.packages("pak")
-pak::pak("tidyverse/tidyverse")
+pak::pak("RMI-PACTA/pactaverse")
 ```
 
 </div>
