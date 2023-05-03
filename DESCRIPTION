@@ -13,4 +13,6 @@ RoxygenNote: 7.2.3
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+Config/Needs/website: rmi-pacta/pacta.pkgdown.template
 URL: https://rmi-pacta.github.io/pactaverse/
+BugReports: https://github.com/RMI-PACTA/pactaverse/issues

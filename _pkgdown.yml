@@ -1,4 +1,4 @@
-url: https://rmi-pacta.github.io/pactaverse/
 template:
-  bootstrap: 5
+  package: pacta.pkgdown.template
 
+url: https://rmi-pacta.github.io/pactaverse
