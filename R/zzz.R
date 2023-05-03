@@ -8,6 +8,8 @@
     conflicts <- pactaverse_conflicts()
     inform_startup(pactaverse_conflict_message(conflicts))
   }
+
+  pactaverse_logo()
 }
 
 is_attached <- function(x) {
