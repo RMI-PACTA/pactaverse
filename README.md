@@ -40,10 +40,15 @@ system packages needed on your machine.
 
 `library(pactaverse)` will load the core pactaverse packages:
 
-- [pacta.data.validation](https://rmi-pacta.github.io/pacta.data.validation/),
-  for validating all PACTA input datasets.
+- [pacta.data.scraping](https://rmi-pacta.github.io/pacta.data.scraping/),
+  for scraping public datasets (e.g. currencies, or indices).
 - [pacta.portfolio.import](https://rmi-pacta.github.io/pacta.portfolio.import/),
   for facilitating the import of financial portfolios.
+- [pacta.data.validation](https://rmi-pacta.github.io/pacta.data.validation/),
+  for validating all PACTA input datasets.
+- [pacta.portfolio.allocate](https://rmi-pacta.github.io/pacta.portfolio.allocate/),
+  for merging portfolios with ABCD and scenario data, and allocating
+  target weights.
 - [pacta.portfolio.audit](https://rmi-pacta.github.io/pacta.portfolio.audit/),
   for generating audit statistics for the PACTA interactive report.
 - [pacta.portfolio.utils](https://rmi-pacta.github.io/pacta.portfolio.utils/),
