@@ -29,5 +29,18 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(pactaverse)
+#> ── Attaching core pactaverse packages ───────────────── pactaverse 0.0.0.9000 ──
+#> ✔ pacta.data.validation   0.0.0.9000     ✔ pacta.portfolio.import  0.0.0.9000
+#> ✔ pacta.executive.summary 0.0.1.9000     ✔ pacta.portfolio.utils   0.0.1.9000
+#> ── Conflicts ───────────────────────────────────────── pactaverse_conflicts() ──
+#> ✖ pacta.data.validation::is_valid_isin() masks pacta.portfolio.import::is_valid_isin()
+#> ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
 ## basic example code
 ```
+
+## Code of Conduct
+
+Please note that the pactaverse project is released with a [Contributor
+Code of
+Conduct](https://rmi-pacta.github.io/pactaverse/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
