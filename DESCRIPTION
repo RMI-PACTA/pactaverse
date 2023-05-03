@@ -8,13 +8,6 @@ Authors@R: c(
 Description: The 'pactaverse' is a set of packages that work to help R users 
   implement various functionality related to the PACTA open source project.
 License: MIT + file LICENSE
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.2.3
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
-Config/Needs/website: rmi-pacta/pacta.pkgdown.template
 URL: https://rmi-pacta.github.io/pactaverse/
 BugReports: https://github.com/RMI-PACTA/pactaverse/issues
 Imports: 
@@ -27,3 +20,10 @@ Remotes:
     RMI-PACTA/pacta.portfolio.import,
     RMI-PACTA/pacta.portfolio.utils,
     RMI-PACTA/pacta.executive.summary
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/Needs/website: rmi-pacta/pacta.pkgdown.template
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
