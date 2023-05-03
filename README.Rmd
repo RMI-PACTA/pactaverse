@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 options(cli.hyperlink = FALSE)
 ```
 
-# pactaverse <a href='https://https://rmi-pacta.github.io/pactaverse/'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
+# pactaverse <a href='https://https://rmi-pacta.github.io/pactaverse/'><img src='man/figures/logo.png' align="right" height="31"/></a>
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/RMI-PACTA/pactaverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/RMI-PACTA/pactaverse/actions/workflows/R-CMD-check.yaml)

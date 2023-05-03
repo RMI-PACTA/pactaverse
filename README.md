@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pactaverse <a href='https://https://rmi-pacta.github.io/pactaverse/'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
+# pactaverse <a href='https://https://rmi-pacta.github.io/pactaverse/'><img src='man/figures/logo.png' align="right" height="31"/></a>
 
 <!-- badges: start -->
 
