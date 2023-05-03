@@ -1,14 +1,14 @@
 # if no packages, shows nothing
 
     Code
-      cat(tidyverse_attach_message(character()))
+      cat(pactaverse_attach_message(character()))
 
-# message lists all core tidyverse packages
+# message lists all core pactaverse packages
 
     Code
-      cat(tidyverse_attach_message(core))
+      cat(pactaverse_attach_message(core))
     Output
-      -- Attaching core tidyverse packages ------------------------ tidyverse 1.0.0 --
+      -- Attaching core pactaverse packages ---------------------- pactaverse 1.0.0 --
       v pacta.data.validation   1.0.0     v pacta.portfolio.import  1.0.0
       v pacta.executive.summary 1.0.0     v pacta.portfolio.utils   1.0.0
       v pacta.portfolio.audit   1.0.0     
