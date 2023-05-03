@@ -1,19 +1,18 @@
 ---
 output: github_document
 ---
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
+  fig.path = "README-"
 )
+options(cli.hyperlink = FALSE)
 ```
 
-# pactaverse
+# pactaverse <a href='https://https://rmi-pacta.github.io/pactaverse/'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/RMI-PACTA/pactaverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/RMI-PACTA/pactaverse/actions/workflows/R-CMD-check.yaml)
@@ -21,27 +20,34 @@ knitr::opts_chunk$set(
 [![Codecov test coverage](https://codecov.io/gh/RMI-PACTA/pactaverse/branch/main/graph/badge.svg)](https://app.codecov.io/gh/RMI-PACTA/pactaverse?branch=main)
 <!-- badges: end -->
 
+## Overview
+
 The goal of pactaverse is to provide and easy way to load and install all PACTA 
 packages. 
 
+It also serves as a way to collect and aggregate all methodological 
+documentation for PACTA. 
+
 ## Installation
 
-You can install the development version of pactaverse like so:
-
-``` r
+::: .pkgdown-devel
+```{r eval = FALSE}
 # Install the development version from GitHub
 # install.packages("pak")
-pak::pak("RMI-PACTA/pactaverse")
+pak::pak("tidyverse/tidyverse")
 ```
+:::
 
-## Example
+If you're compiling from source, you can run `pak::pkg_system_requirements("pactaverse")`, to see the complete set of system packages needed on your machine.
 
-This is a basic example which shows you how to solve a common problem:
+## Usage (WIP!)
 
-```{r example}
-library(pactaverse)
-## basic example code
-```
+`library(pactaverse)` will load the core pactaverse packages: 
+
+* [pacta.data.validation](https://rmi-pacta.github.io/pacta.data.validation/), for validating all PACTA input datasets.
+* [pacta.portfolio.import](https://rmi-pacta.github.io/pacta.portfolio.import/), for facilitating the import of financial portfolios.
+* [pacta.portfolio.utils](https://rmi-pacta.github.io/pacta.portfolio.utils/), for general utility functions, especially those that support transition monitor.
+* [pacta.executive.summary](https://rmi-pacta.github.io/pacta.executive.summary/), for generating executive summaries for COP projects.
 
 ## Code of Conduct
 

@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pactaverse
+# pactaverse <a href='https://https://rmi-pacta.github.io/pactaverse/'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
 
 <!-- badges: start -->
 
@@ -12,33 +12,43 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 coverage](https://codecov.io/gh/RMI-PACTA/pactaverse/branch/main/graph/badge.svg)](https://app.codecov.io/gh/RMI-PACTA/pactaverse?branch=main)
 <!-- badges: end -->
 
+## Overview
+
 The goal of pactaverse is to provide and easy way to load and install
 all PACTA packages.
 
+It also serves as a way to collect and aggregate all methodological
+documentation for PACTA.
+
 ## Installation
 
-You can install the development version of pactaverse like so:
+<div class=".pkgdown-devel">
 
 ``` r
 # Install the development version from GitHub
 # install.packages("pak")
-pak::pak("RMI-PACTA/pactaverse")
+pak::pak("tidyverse/tidyverse")
 ```
 
-## Example
+</div>
 
-This is a basic example which shows you how to solve a common problem:
+If you’re compiling from source, you can run
+`pak::pkg_system_requirements("pactaverse")`, to see the complete set of
+system packages needed on your machine.
 
-``` r
-library(pactaverse)
-#> ── Attaching core pactaverse packages ───────────────── pactaverse 0.0.0.9000 ──
-#> ✔ pacta.data.validation   0.0.0.9000     ✔ pacta.portfolio.import  0.0.0.9000
-#> ✔ pacta.executive.summary 0.0.1.9000     ✔ pacta.portfolio.utils   0.0.1.9000
-#> ── Conflicts ───────────────────────────────────────── pactaverse_conflicts() ──
-#> ✖ pacta.data.validation::is_valid_isin() masks pacta.portfolio.import::is_valid_isin()
-#> ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
-## basic example code
-```
+## Usage (WIP!)
+
+`library(pactaverse)` will load the core pactaverse packages:
+
+- [pacta.data.validation](https://rmi-pacta.github.io/pacta.data.validation/),
+  for validating all PACTA input datasets.
+- [pacta.portfolio.import](https://rmi-pacta.github.io/pacta.portfolio.import/),
+  for facilitating the import of financial portfolios.
+- [pacta.portfolio.utils](https://rmi-pacta.github.io/pacta.portfolio.utils/),
+  for general utility functions, especially those that support
+  transition monitor.
+- [pacta.executive.summary](https://rmi-pacta.github.io/pacta.executive.summary/),
+  for generating executive summaries for COP projects.
 
 ## Code of Conduct
 
