@@ -11,12 +11,19 @@ License: MIT + file LICENSE
 URL: https://rmi-pacta.github.io/pactaverse/
 BugReports: https://github.com/RMI-PACTA/pactaverse/issues
 Imports: 
+    cli,
+    dplyr,
+    magrittr,
     pacta.data.validation (>= 0.0.0.9000),
     pacta.executive.summary (>= 0.0.1.9000),
     pacta.portfolio.audit (>= 0.0.0.9000),
     pacta.portfolio.import (>= 0.0.0.9000),
-    pacta.portfolio.utils (>= 0.0.1.9000)
-Remotes:  
+    pacta.portfolio.utils (>= 0.0.1.9000),
+    purrr,
+    rlang,
+    rstudioapi,
+    tibble
+Remotes: 
     RMI-PACTA/pacta.data.validation,
     RMI-PACTA/pacta.portfolio.import,
     RMI-PACTA/pacta.portfolio.utils,
