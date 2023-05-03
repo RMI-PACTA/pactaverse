@@ -14,8 +14,10 @@ Imports:
     cli,
     dplyr,
     magrittr,
+    pacta.data.scraping (>= 0.0.0.9000),
     pacta.data.validation (>= 0.0.0.9000),
     pacta.executive.summary (>= 0.0.1.9000),
+    pacta.portfolio.allocate (>= 0.0.0.9000),
     pacta.portfolio.audit (>= 0.0.0.9000),
     pacta.portfolio.import (>= 0.0.0.9000),
     pacta.portfolio.utils (>= 0.0.1.9000),
@@ -24,11 +26,13 @@ Imports:
     rstudioapi,
     tibble
 Remotes: 
+    RMI-PACTA/pacta.data.scraping,
     RMI-PACTA/pacta.data.validation,
-    RMI-PACTA/pacta.portfolio.import,
-    RMI-PACTA/pacta.portfolio.utils,
     RMI-PACTA/pacta.executive.summary,
-    RMI-PACTA/pacta.portfolio.audit
+    RMI-PACTA/pacta.portfolio.allocate,
+    RMI-PACTA/pacta.portfolio.audit,
+    RMI-PACTA/pacta.portfolio.import,
+    RMI-PACTA/pacta.portfolio.utils
 Suggests: 
     covr,
     mockr,
