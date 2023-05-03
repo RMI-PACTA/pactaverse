@@ -18,7 +18,7 @@ same_library <- function(pkg) {
   library(pkg, lib.loc = loc, character.only = TRUE, warn.conflicts = FALSE)
 }
 
-tidyverse_attach <- function() {
+pactaverse_attach <- function() {
   to_load <- core_unloaded()
 
   suppressPackageStartupMessages(
@@ -28,14 +28,14 @@ tidyverse_attach <- function() {
   invisible(to_load)
 }
 
-tidyverse_attach_message <- function(to_load) {
+pactaverse_attach_message <- function(to_load) {
   if (length(to_load) == 0) {
     return(NULL)
   }
 
   header <- cli::rule(
-    left = cli::style_bold("Attaching core tidyverse packages"),
-    right = paste0("tidyverse ", package_version_h("tidyverse"))
+    left = cli::style_bold("Attaching core pactaverse packages"),
+    right = paste0("pactaverse ", package_version_h("pactaverse"))
   )
 
   to_load <- sort(to_load)
