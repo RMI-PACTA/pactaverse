@@ -2,8 +2,32 @@ Package: pactaverse
 Title: Easily Install and Load the 'PACTA-verse'
 Version: 0.0.0.9000
 Authors@R: c(
-    person("Jackson", "Hoffart", , "jackson.hoffart@gmail.com", role = c("aut", "cre")),
-    person("RMI", role = c("cph", "fnd"))
+    person(given = "Jackson",
+           family = "Hoffart",
+           role = c("aut", "cre", "ctr"),
+           email = "jackson.hoffart@gmail.com",
+           comment = c(ORCID = "0000-0002-8600-5042")),
+    person(given = "CJ",
+           family = "Yetman",
+           role = c("aut", "ctr"),
+           email = "cj@cjyetman.com",
+           comment = c(ORCID = "0000-0001-5099-9500")),
+    person(given = "Jacob",
+           family = "Kastl",
+           role = c("aut", "ctr"),
+           email = "jacob.kastl@gmail.com"),
+    person(given = "Monika",
+           family = "Furdyna",
+           role = c("aut", "ctr"),
+           email = "monika.furdyna@gmail.com"),
+    person(given = "Alex",
+           family = "Axthelm",
+           role = c("aut", "ctr"),
+           email = "aaxthelm@rmi.org",
+           comment = c(ORCID = "0000-0001-8579-8565")),
+    person(given = "RMI",
+             role = c("cph", "fnd"),
+             email = "PACTA4investors@rmi.org")
   )
 Description: The 'pactaverse' is a set of packages that work to help R users 
   implement various functionality related to the PACTA open source project.
