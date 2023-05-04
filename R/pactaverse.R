@@ -12,7 +12,6 @@ ignore_unused_imports <- function() {
   pacta.portfolio.audit::add_portfolio_flags
   pacta.portfolio.utils::abort_if_file_doesnt_exist
   pacta.executive.summary::alignment_scores_values
-  pacta.interactive.report::trajectory_alignment_chart
   pacta.interactive.plot::as_exposure_map_data
 }
 
