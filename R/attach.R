@@ -5,7 +5,8 @@ core <- c(
   "pacta.portfolio.allocate",
   "pacta.portfolio.audit",
   "pacta.portfolio.utils",
-  "pacta.executive.summary"
+  "pacta.executive.summary",
+  "pacta.interactive.plot"
   )
 
 core_unloaded <- function() {
