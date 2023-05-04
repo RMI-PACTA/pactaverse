@@ -56,6 +56,8 @@ system packages needed on your machine.
   transition monitor.
 - [pacta.executive.summary](https://rmi-pacta.github.io/pacta.executive.summary/),
   for generating executive summaries for COP projects.
+- [pacta.interactive.plot](https://rmi-pacta.github.io/pacta.interactive.plot/),
+  for generating interactive plots of PACTA results.
 
 ## Code of Conduct
 
