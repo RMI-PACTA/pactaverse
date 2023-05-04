@@ -1,25 +1,28 @@
 template:
   package: pacta.pkgdown.template
-
-  right:
-    - text: "Packages"
-      menu:
-      - text: "pacta.data.scraping"
-        href: https://rmi-pacta.github.io/pacta.data.scraping/
-      - text: "pacta.portfolio.import"
-        href: https://rmi-pacta.github.io/pacta.portfolio.import/
-      - text: "pacta.data.validation"
-        href: https://rmi-pacta.github.io/pacta.data.validation/
-      - text: "pacta.portfolio.allocate"
-        href: https://rmi-pacta.github.io/pacta.portfolio.allocate/
-      - text: "pacta.portfolio.audit"
-        href: https://rmi-pacta.github.io/pacta.portfolio.audit/
-      - text: "pacta.portfolio.utils"
-        href: https://rmi-pacta.github.io/pacta.portfolio.utils/
-      - text: "pacta.executive.summary"
-        href: https://rmi-pacta.github.io/pacta.executive.summary/
-      - text: "pacta.interactive.plot"
-        href: https://rmi-pacta.github.io/pacta.interactive.plot/
-
+  navbar:
+    structure:
+      left: []
+      right: [intro, packages, reference, articles, tutorials, news, github, search]
+    components:
+      packages:
+        text: "Packages"
+        menu:
+        - text: "pacta.data.scraping"
+          href: https://rmi-pacta.github.io/pacta.data.scraping/
+        - text: "pacta.portfolio.import"
+          href: https://rmi-pacta.github.io/pacta.portfolio.import/
+        - text: "pacta.data.validation"
+          href: https://rmi-pacta.github.io/pacta.data.validation/
+        - text: "pacta.portfolio.allocate"
+          href: https://rmi-pacta.github.io/pacta.portfolio.allocate/
+        - text: "pacta.portfolio.audit"
+          href: https://rmi-pacta.github.io/pacta.portfolio.audit/
+        - text: "pacta.portfolio.utils"
+          href: https://rmi-pacta.github.io/pacta.portfolio.utils/
+        - text: "pacta.executive.summary"
+          href: https://rmi-pacta.github.io/pacta.executive.summary/
+        - text: "pacta.interactive.plot"
+          href: https://rmi-pacta.github.io/pacta.interactive.plot/
 
 url: https://rmi-pacta.github.io/pactaverse
