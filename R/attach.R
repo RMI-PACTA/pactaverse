@@ -4,6 +4,7 @@ core <- c(
   "pacta.data.validation",
   "pacta.portfolio.allocate",
   "pacta.portfolio.audit",
+  "pacta.portfolio.report",
   "pacta.portfolio.utils",
   "pacta.executive.summary",
   "pacta.interactive.plot"

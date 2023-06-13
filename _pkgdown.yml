@@ -19,6 +19,8 @@ navbar:
         href: https://rmi-pacta.github.io/pacta.portfolio.allocate/
       - text: "pacta.portfolio.audit"
         href: https://rmi-pacta.github.io/pacta.portfolio.audit/
+      - text: "pacta.portfolio.report"
+        href: https://rmi-pacta.github.io/pacta.portfolio.report/
       - text: "pacta.portfolio.utils"
         href: https://rmi-pacta.github.io/pacta.portfolio.utils/
       - text: "pacta.executive.summary"

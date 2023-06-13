@@ -19,11 +19,19 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Jackson Hoffart \email{jackson.hoffart@gmail.com}
+\strong{Maintainer}: Jackson Hoffart \email{jackson.hoffart@gmail.com} (\href{https://orcid.org/0000-0002-8600-5042}{ORCID}) [contractor]
+
+Authors:
+\itemize{
+  \item CJ Yetman \email{cj@cjyetman.com} (\href{https://orcid.org/0000-0001-5099-9500}{ORCID}) [contractor]
+  \item Jacob Kastl \email{jacob.kastl@gmail.com} [contractor]
+  \item Monika Furdyna \email{monika.furdyna@gmail.com} [contractor]
+  \item Alex Axthelm \email{aaxthelm@rmi.org} (\href{https://orcid.org/0000-0001-8579-8565}{ORCID}) [contractor]
+}
 
 Other contributors:
 \itemize{
-  \item RMI [copyright holder, funder]
+  \item RMI \email{PACTA4investors@rmi.org} [copyright holder, funder]
 }
 
 }

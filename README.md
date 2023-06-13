@@ -51,6 +51,8 @@ system packages needed on your machine.
   target weights.
 - [pacta.portfolio.audit](https://rmi-pacta.github.io/pacta.portfolio.audit/),
   for generating audit statistics for the PACTA interactive report.
+- [pacta.portfolio.report](https://rmi-pacta.github.io/pacta.portfolio.report/),
+  for generating an interactive report of PACTA results.
 - [pacta.portfolio.utils](https://rmi-pacta.github.io/pacta.portfolio.utils/),
   for general utility functions, especially those that support
   transition monitor.
