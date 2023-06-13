@@ -45,6 +45,7 @@ Imports:
     pacta.portfolio.allocate (>= 0.0.0.9000),
     pacta.portfolio.audit (>= 0.0.0.9000),
     pacta.portfolio.import (>= 0.0.0.9000),
+    pacta.portfolio.report (>= 0.0.1.9000),
     pacta.portfolio.utils (>= 0.0.1.9000),
     purrr,
     rlang,
@@ -58,6 +59,7 @@ Remotes:
     RMI-PACTA/pacta.portfolio.allocate,
     RMI-PACTA/pacta.portfolio.audit,
     RMI-PACTA/pacta.portfolio.import,
+    RMI-PACTA/pacta.portfolio.report,
     RMI-PACTA/pacta.portfolio.utils
 Suggests: 
     covr,

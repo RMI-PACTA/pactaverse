@@ -10,6 +10,7 @@ ignore_unused_imports <- function() {
   pacta.data.validation::fake_abcd_flags_bonds
   pacta.portfolio.allocate::aggregate_company
   pacta.portfolio.audit::add_portfolio_flags
+  pacta.portfolio.report::get_report_template_path
   pacta.portfolio.utils::abort_if_file_doesnt_exist
   pacta.executive.summary::alignment_scores_values
   pacta.interactive.plot::as_exposure_map_data
