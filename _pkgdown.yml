@@ -4,7 +4,7 @@ template:
 navbar:
   structure:
     left: []
-    right: [intro, packages, reference, articles, tutorials, news, github, search]
+    right: [intro, packages, methodology, reference, articles, tutorials, news, github, search]
   components:
     packages:
       text: "Packages"
