@@ -1,5 +1,5 @@
 template:
-  package: pacta.pkgdown.template
+  package: pacta.pkgdown.rmitemplate
 
 navbar:
   structure:
