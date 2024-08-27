@@ -32,7 +32,5 @@ navbar:
       menu:
       - text: "Share ownership weight attribution method"
         href: https://rmi-pacta.github.io/pacta.data.preparation/articles/share_ownership_methodology.html
-      - text: "Transition Disruption Metric"
-        href: https://rmi-pacta.github.io/pacta.portfolio.allocate/articles/transition_disruption_metric.html
 
 url: https://rmi-pacta.github.io/pactaverse
