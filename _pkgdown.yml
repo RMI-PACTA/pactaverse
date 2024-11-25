@@ -4,11 +4,14 @@ template:
 navbar:
   structure:
     left: []
-    right: [intro, packages, methodology, reference, articles, tutorials, news, github, search]
+    right: [intro, packages, methodology, reference, tutorials, news, github, search]
   components:
     packages:
       text: "Packages"
       menu:
+      - text: "Global search"
+        href: https://rmi-pacta.github.io/pactaverse/articles/global-search.html
+      - text: -----
       - text: "pacta.data.scraping"
         href: https://rmi-pacta.github.io/pacta.data.scraping/
       - text: "pacta.portfolio.import"
