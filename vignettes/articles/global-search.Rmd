@@ -10,16 +10,16 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
-library(pacta.data.scraping) |> suppressPackageStartupMessages()
-library(pacta.data.validation) |> suppressPackageStartupMessages()
-library(pacta.executive.summary) |> suppressPackageStartupMessages()
-library(pacta.interactive.plot) |> suppressPackageStartupMessages()
-library(pacta.portfolio.allocate) |> suppressPackageStartupMessages()
-library(pacta.portfolio.audit) |> suppressPackageStartupMessages()
-library(pacta.portfolio.import) |> suppressPackageStartupMessages()
-library(pacta.portfolio.report) |> suppressPackageStartupMessages()
-library(pacta.portfolio.utils) |> suppressPackageStartupMessages()
+```{r setup, message=FALSE}
+library(pacta.data.scraping)
+library(pacta.data.validation)
+library(pacta.executive.summary)
+library(pacta.interactive.plot)
+library(pacta.portfolio.allocate)
+library(pacta.portfolio.audit)
+library(pacta.portfolio.import)
+library(pacta.portfolio.report)
+library(pacta.portfolio.utils)
 ```
 
 ```{r}
@@ -38,9 +38,9 @@ packages <- c(
 url_template <- "https://rmi-pacta.github.io/{package}/reference/{topic}.html"
 docs <- dverse::document_universe(packages, url_template)
 
-docs |> 
-  dplyr::filter(type == "help", keyword != "internal" | is.na(keyword)) |> 
-  dplyr::select(topic, title, package) |> 
+docs %>% 
+  dplyr::filter(type == "help", keyword != "internal" | is.na(keyword)) %>% 
+  dplyr::select(topic, title, package) %>% 
   DT::datatable(escape = FALSE)
 ```
 
