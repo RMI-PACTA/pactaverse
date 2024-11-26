@@ -10,7 +10,7 @@ navbar:
       text: "Packages"
       menu:
       - text: "Global search"
-        href: https://rmi-pacta.github.io/pactaverse/articles/global-search.html
+        href: articles/global-search.html
       - text: -----
       - text: "pacta.data.scraping"
         href: https://rmi-pacta.github.io/pacta.data.scraping/
