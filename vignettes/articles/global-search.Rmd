@@ -38,10 +38,9 @@ packages <- c(
 url_template <- "https://rmi-pacta.github.io/{package}/reference/{topic}.html"
 docs <- dverse::document_universe(packages, url_template)
 
-exported_helpfiles <- docs %>% 
-  dplyr::filter(type == "help", keyword != "internal" | is.na(keyword)) %>% 
+exported_helpfiles <- docs %>%
+  dplyr::filter(type == "help", keyword != "internal" | is.na(keyword)) %>%
   dplyr::select(topic, title, package)
 
 exported_helpfiles %>% DT::datatable(escape = FALSE)
 ```
-
