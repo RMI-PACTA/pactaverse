@@ -1,0 +1,46 @@
+---
+title: "Global search"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup, message=FALSE}
+library(pacta.data.scraping)
+library(pacta.data.validation)
+library(pacta.executive.summary)
+library(pacta.interactive.plot)
+library(pacta.portfolio.allocate)
+library(pacta.portfolio.audit)
+library(pacta.portfolio.import)
+library(pacta.portfolio.report)
+library(pacta.portfolio.utils)
+```
+
+```{r}
+packages <- c(
+  "pacta.data.scraping",
+  "pacta.data.validation",
+  "pacta.executive.summary",
+  "pacta.interactive.plot",
+  "pacta.portfolio.allocate",
+  "pacta.portfolio.audit",
+  "pacta.portfolio.import",
+  "pacta.portfolio.report",
+  "pacta.portfolio.utils"
+)
+
+url_template <- "https://rmi-pacta.github.io/{package}/reference/{topic}.html"
+docs <- dverse::document_universe(packages, url_template)
+
+exported_helpfiles <- docs %>%
+  dplyr::filter(type == "help", keyword != "internal" | is.na(keyword)) %>%
+  dplyr::select(topic, title, package)
+
+exported_helpfiles %>% DT::datatable(escape = FALSE)
+```

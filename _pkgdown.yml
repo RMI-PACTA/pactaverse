@@ -9,6 +9,9 @@ navbar:
     packages:
       text: "Packages"
       menu:
+      - text: "Global search"
+        href: articles/global-search.html
+      - text: -----
       - text: "pacta.data.scraping"
         href: https://rmi-pacta.github.io/pacta.data.scraping/
       - text: "pacta.portfolio.import"

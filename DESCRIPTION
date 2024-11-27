@@ -63,6 +63,8 @@ Remotes:
     RMI-PACTA/pacta.portfolio.utils
 Suggests: 
     covr,
+    DT,
+    dverse,
     mockr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
