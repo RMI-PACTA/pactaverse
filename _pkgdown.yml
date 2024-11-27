@@ -4,7 +4,7 @@ template:
 navbar:
   structure:
     left: []
-    right: [intro, packages, methodology, reference, articles, tutorials, news, github, search]
+    right: [intro, packages, methodology, reference, sit.rep, tutorials, news, github, search]
   components:
     packages:
       text: "Packages"
@@ -32,5 +32,8 @@ navbar:
       menu:
       - text: "Share ownership weight attribution method"
         href: https://rmi-pacta.github.io/pacta.data.preparation/articles/share_ownership_methodology.html
+    sit.rep:
+      text: "sit.rep"
+      href: articles/pactaverse_sit_rep.html
 
 url: https://rmi-pacta.github.io/pactaverse
