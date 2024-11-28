@@ -35,6 +35,8 @@ navbar:
       menu:
       - text: "Share ownership weight attribution method"
         href: https://rmi-pacta.github.io/pacta.data.preparation/articles/share_ownership_methodology.html
+      - text: "Attributing Company Activities to Financial Assets"
+        href: https://rmi-pacta.github.io/pacta.portfolio.audit/articles/qttributing-company-activities-to-financial-assets.html
     sit.rep:
       text: "sit.rep"
       href: articles/pactaverse_sit_rep.html
