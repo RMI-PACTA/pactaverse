@@ -1,5 +1,6 @@
 core <- c(
   "pacta.data.scraping",
+  "pacta.data.preparation",
   "pacta.portfolio.import",
   "pacta.data.validation",
   "pacta.portfolio.allocate",
@@ -7,7 +8,8 @@ core <- c(
   "pacta.portfolio.report",
   "pacta.portfolio.utils",
   "pacta.executive.summary",
-  "pacta.interactive.plot"
+  "pacta.interactive.plot",
+  "pacta.scenario.data.preparation"
   )
 
 core_unloaded <- function() {

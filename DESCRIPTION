@@ -39,6 +39,7 @@ Imports:
     dplyr,
     magrittr,
     pacta.data.scraping (>= 0.0.0.9000),
+    pacta.data.preparation (>= 0.1.0.9003),
     pacta.data.validation (>= 0.0.0.9000),
     pacta.executive.summary (>= 0.0.1.9000),
     pacta.interactive.plot (>= 0.0.0.9000),
@@ -47,12 +48,14 @@ Imports:
     pacta.portfolio.import (>= 0.0.0.9000),
     pacta.portfolio.report (>= 0.0.1.9000),
     pacta.portfolio.utils (>= 0.0.1.9000),
+    pacta.scenario.data.preparation (>= 0.0.0.9000),
     purrr,
     rlang,
     rstudioapi,
     tibble
 Remotes: 
     RMI-PACTA/pacta.data.scraping,
+    RMI-PACTA/pacta.data.preparation,
     RMI-PACTA/pacta.data.validation,
     RMI-PACTA/pacta.executive.summary,
     RMI-PACTA/pacta.interactive.plot,
@@ -60,7 +63,8 @@ Remotes:
     RMI-PACTA/pacta.portfolio.audit,
     RMI-PACTA/pacta.portfolio.import,
     RMI-PACTA/pacta.portfolio.report,
-    RMI-PACTA/pacta.portfolio.utils
+    RMI-PACTA/pacta.portfolio.utils,
+    RMI-PACTA/pacta.scenario.data.preparation
 Suggests: 
     covr,
     DT,

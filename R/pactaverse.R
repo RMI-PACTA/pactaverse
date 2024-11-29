@@ -6,6 +6,7 @@
 #   All declared Imports should be used.
 ignore_unused_imports <- function() {
   pacta.data.scraping::get_currency_exchange_rates
+  pacta.data.preparation::calc_shares_all_classes
   pacta.portfolio.import::determine_headers
   pacta.data.validation::fake_abcd_flags_bonds
   pacta.portfolio.allocate::aggregate_company
@@ -14,6 +15,7 @@ ignore_unused_imports <- function() {
   pacta.portfolio.utils::abort_if_file_doesnt_exist
   pacta.executive.summary::alignment_scores_values
   pacta.interactive.plot::as_exposure_map_data
+  pacta.scenario.data.preparation::add_market_share_columns
 }
 
 release_bullets <- function() {

@@ -12,6 +12,7 @@ knitr::opts_chunk$set(
 
 ```{r setup, message=FALSE}
 library(pacta.data.scraping)
+library(pacta.data.preparation)
 library(pacta.data.validation)
 library(pacta.executive.summary)
 library(pacta.interactive.plot)
@@ -20,11 +21,13 @@ library(pacta.portfolio.audit)
 library(pacta.portfolio.import)
 library(pacta.portfolio.report)
 library(pacta.portfolio.utils)
+library(pacta.scenario.data.preparation)
 ```
 
 ```{r}
 packages <- c(
   "pacta.data.scraping",
+  "pacta.data.preparation",
   "pacta.data.validation",
   "pacta.executive.summary",
   "pacta.interactive.plot",
@@ -32,7 +35,8 @@ packages <- c(
   "pacta.portfolio.audit",
   "pacta.portfolio.import",
   "pacta.portfolio.report",
-  "pacta.portfolio.utils"
+  "pacta.portfolio.utils",
+  "pacta.scenario.data.preparation"
 )
 
 url_template <- "https://rmi-pacta.github.io/{package}/reference/{topic}.html"

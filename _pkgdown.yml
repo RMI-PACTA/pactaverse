@@ -14,6 +14,8 @@ navbar:
       - text: -----
       - text: "pacta.data.scraping"
         href: https://rmi-pacta.github.io/pacta.data.scraping/
+      - text: "pacta.data.preparation"
+        href: https://rmi-pacta.github.io/pacta.data.preparation/
       - text: "pacta.portfolio.import"
         href: https://rmi-pacta.github.io/pacta.portfolio.import/
       - text: "pacta.data.validation"
@@ -30,6 +32,8 @@ navbar:
         href: https://rmi-pacta.github.io/pacta.executive.summary/
       - text: "pacta.interactive.plot"
         href: https://rmi-pacta.github.io/pacta.interactive.plot/
+      - text: "pacta.scenario.data.preparation"
+        href: https://rmi-pacta.github.io/pacta.scenario.data.preparation/
     methodology:
       text: "Methodology"
       menu:
