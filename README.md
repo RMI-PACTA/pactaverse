@@ -42,6 +42,8 @@ system packages needed on your machine.
 
 - [pacta.data.scraping](https://rmi-pacta.github.io/pacta.data.scraping/),
   for scraping public datasets (e.g. currencies, or indices).
+- [pacta.data.preparation](https://rmi-pacta.github.io/pacta.data.preparation/),
+  for preparing input datasets (e.g. ABCD).
 - [pacta.portfolio.import](https://rmi-pacta.github.io/pacta.portfolio.import/),
   for facilitating the import of financial portfolios.
 - [pacta.data.validation](https://rmi-pacta.github.io/pacta.data.validation/),
@@ -60,6 +62,8 @@ system packages needed on your machine.
   for generating executive summaries for COP projects.
 - [pacta.interactive.plot](https://rmi-pacta.github.io/pacta.interactive.plot/),
   for generating interactive plots of PACTA results.
+- [pacta.scenario.data.preparation](https://rmi-pacta.github.io/pacta.scenario.data.preparation/),
+  for preparing scenario data.
 
 ## Code of Conduct
 
