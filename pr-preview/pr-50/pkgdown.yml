@@ -4,7 +4,7 @@ pkgdown_sha: ~
 articles:
   articles/global-search: global-search.html
   articles/pactaverse_sit_rep: pactaverse_sit_rep.html
-last_built: 2024-12-07T19:23Z
+last_built: 2024-12-07T19:36Z
 urls:
   reference: https://rmi-pacta.github.io/pactaverse/reference
   article: https://rmi-pacta.github.io/pactaverse/articles
