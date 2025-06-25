@@ -52,8 +52,7 @@ system packages needed on your machine.
 - [pacta.portfolio.audit](https://rmi-pacta.github.io/pacta.portfolio.audit/),
   for generating audit statistics for the PACTA interactive report.
 - [pacta.portfolio.utils](https://rmi-pacta.github.io/pacta.portfolio.utils/),
-  for general utility functions, especially those that support
-  transition monitor.
+  for general utility functions.
 - [pacta.executive.summary](https://rmi-pacta.github.io/pacta.executive.summary/),
   for generating executive summaries for COP projects.
 - [pacta.interactive.plot](https://rmi-pacta.github.io/pacta.interactive.plot/),
