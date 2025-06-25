@@ -56,8 +56,7 @@ system packages needed on your machine.
 - [pacta.portfolio.report](https://rmi-pacta.github.io/pacta.portfolio.report/),
   for generating an interactive report of PACTA results.
 - [pacta.portfolio.utils](https://rmi-pacta.github.io/pacta.portfolio.utils/),
-  for general utility functions, especially those that support
-  transition monitor.
+  for general utility functions.
 - [pacta.executive.summary](https://rmi-pacta.github.io/pacta.executive.summary/),
   for generating executive summaries for COP projects.
 - [pacta.interactive.plot](https://rmi-pacta.github.io/pacta.interactive.plot/),
