@@ -3,6 +3,10 @@
 
 # pactaverse <a href='https://https://rmi-pacta.github.io/pactaverse/'><img src='man/figures/logo.png' align="right" height="31"/></a>
 
+[![Project Status: Unsupported](https://www.repostatus.org/badges/latest/unsupported.svg)](https://www.repostatus.org/#unsupported)
+
+**This project is archived for future reference, but no new work is expected in this repository.**
+
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/RMI-PACTA/pactaverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/RMI-PACTA/pactaverse/actions/workflows/R-CMD-check.yaml)
