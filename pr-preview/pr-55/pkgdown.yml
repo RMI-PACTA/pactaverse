@@ -1,0 +1,10 @@
+pandoc: 3.1.11
+pkgdown: 2.2.0
+pkgdown_sha: ~
+articles:
+  articles/global-search: global-search.html
+  articles/pactaverse_sit_rep: pactaverse_sit_rep.html
+last_built: 2026-03-25T12:35Z
+urls:
+  reference: https://rmi-pacta.github.io/pactaverse/reference
+  article: https://rmi-pacta.github.io/pactaverse/articles
